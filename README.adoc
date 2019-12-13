@@ -11,7 +11,7 @@ This enables graphql route to run queries (GET and POST). It also enables Graphi
 
 ==== Fetchers ====
 
-Two fetchers Profile and Wallet fetchers are defined in example.graphql.fetchers which are using in runtime wirings.
+Two fetchers Profile and Wallet fetchers are defined in example.graphql.fetchers which are used in runtime wirings.
 
 
 ===== Launch =====
