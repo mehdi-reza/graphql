@@ -13,7 +13,13 @@ This enables graphql route to run queries (GET and POST). It also enables Graphi
 
 Two fetchers Profile and Wallet fetchers are defined in example.graphql.fetchers which are using in runtime wirings.
 
-Run a query
+
+===== Run ====
+----
+mvn clean package quarkus:dev
+----
+
+===== Run a query =====
 ----
 curl -d'{profile{id name wallets{id name}}}' -H'Content-Type: application/graphql' -H'Accept: application/json' http://localhost:8080/graphql
 ----
