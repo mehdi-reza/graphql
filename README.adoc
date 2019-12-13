@@ -5,10 +5,13 @@
 ==== GraphQLProducer.java ====
 This setup graphql by parsing the schema and binding wirings for data fetchers.
 
-#### Routes.java
+==== Routes.java ====
 
 This enables graphql route to run queries (GET and POST). It also enables GraphiQL, hit your browser at http://localhost:8080/graphiql/
 
+==== Fetchers ====
+
+Two fetchers Profile and Wallet fetchers are defined in example.graphql.fetchers which are using in runtime wirings.
 
 Run a query
 ----
