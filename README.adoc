@@ -1,1 +1,16 @@
-# graphql
+= graphql =
+
+== Main components ==
+
+==== GraphQLProducer.java ====
+This setup graphql by parsing the schema and binding wirings for data fetchers.
+
+#### Routes.java
+
+This enables graphql route to run queries (GET and POST). It also enables GraphiQL, hit your browser at http://localhost:8080/graphiql/
+
+
+Run a query
+----
+curl -d'{profile{id name wallets{id name}}}' -H'Content-Type: application/graphql' -H'Accept: application/json' http://localhost:8080/graphql
+----
