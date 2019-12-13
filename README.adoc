@@ -23,3 +23,7 @@ mvn clean package quarkus:dev
 ----
 curl -d'{profile{id name wallets{id name}}}' -H'Content-Type: application/graphql' -H'Accept: application/json' http://localhost:8080/graphql
 ----
+
+----
+{"data":{"profile":{"id":"1","name":"Mehdi Raza","wallets":[{"id":"1","name":"JAZZ"},{"id":"1","name":"EasyPaisa"}]}}}
+----
