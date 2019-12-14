@@ -3,7 +3,7 @@
 == Main components ==
 
 ==== GraphQLProducer.java ====
-This setup graphql by parsing the schema and binding wirings for data fetchers.
+This sets up graphql by parsing the schema and binding wirings for data fetchers.
 
 ==== Routes.java ====
 
